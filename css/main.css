@@ -1,0 +1,503 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444;
+    background-color: #fff;
+}
+
+/* CONTAINER STYLES */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BUTTON STYLES */
+.red-btn {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #de2e54;
+    border-radius: 8px;
+    border: 2px solid #de2e54;
+    display: inline-block;
+}
+
+/* SITE HEADER STYLES */
+.site-header {
+    padding: 24px 0px;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32.68px;
+    color: #222;
+    text-decoration: none;
+}
+
+.site-header-logo:hover {
+    color: #de2e54;
+}
+
+.site-header-logo:active {
+    opacity: 0.6;
+}
+
+.site-header-logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.site-header-nav {
+    display: flex;
+    list-style: none;
+}
+
+.site-header-nav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.site-header-nav-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-header-nav-link:hover {
+    color: #de2e54;
+}
+
+.site-header-nav-link:active {
+    opacity: 0.6;
+}
+
+.site-header-btn:hover {
+    background-color: #fff;
+    color: #de2e54;
+}
+
+.site-header-btn:active {
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.menyu-btn {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    display: none;
+    background-color: rgb(245, 239, 239);
+    padding: 8px;
+
+}
+
+.menyu-btn-img {}
+
+/* SITE MAIN STYLES */
+.site-main {
+    background-color: #fff;
+}
+
+/* HERO SECTION STYLES */
+.hero-section {
+    background-color: #0eb4c1;
+    padding: 120px 0px;
+}
+
+.hero-section-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section-text-wrapper {
+    width: 100%;
+    max-width: 500px;
+    color: #fff;
+}
+
+.hero-section-title {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.hero-section-text {
+    width: 100%;
+    max-width: 440px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 36px;
+}
+
+.hero-section-btn:hover {
+    background-color: rgba(222, 46, 84, 0.8);
+}
+
+.hero-section-btn:active {
+    background-color: rgba(222, 46, 84, 0.6);
+    border-color: rgba(222, 46, 84, 0.3);
+}
+
+.hero-section-img {
+    margin-top: -87px;
+    margin-bottom: -120px;
+}
+
+/* SERVICES SECTION STYLES */
+.services-section {
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-section-title {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #000;
+    margin-bottom: 56px;
+}
+
+.services-section-list {
+    width: 100%;
+    max-width: 904px;
+    padding: 0px 20px;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+.services-section-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.services-section-list-item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.services-section-item-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+    margin-right: 64px;
+}
+
+.services-section-item-title {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #222;
+    margin-bottom: 24px;
+}
+
+.services-section-btn:hover {
+    background-color: #fff;
+    color: #de2e54;
+}
+
+.services-section-btn:active {
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* REGISTER SECTION STYLES */
+
+.register-section {
+    padding: 64px 0px;
+    background-color: #0eb4c1;
+    text-align: center;
+}
+
+.register-section-title {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.buttons-wrapper {
+    padding: 0px 20px;
+}
+
+.register-section-btn {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: solid 2px #fff;
+    border-radius: 8px;
+}
+
+.register-section-btn:first-child {
+    margin-right: 40px;
+}
+
+.register-section-btn:hover {
+    background-color: #de2e54;
+    border-color: #de2e54;
+}
+
+.register-section-btn:active {
+    opacity: 0.6;
+}
+
+
+/* SITE FOOTER STYLES */
+.site-footer {
+    padding: 24px 0px;
+    background-color: #222;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32.68px;
+}
+
+.site-footer-logo:hover {
+    color: #de2e54;
+}
+
+.site-footer-logo:active {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.site-footer-logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.site-footer-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.site-footer-nav-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.site-footer-nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+}
+
+.site-footer-nav-link:hover {
+    color: #de2e54;
+}
+
+.site-footer-nav-link:active {
+    color: #fff;
+    opacity: 0.6;
+}
+
+
+/* MEDIA RESPONSIVE STAYLES  */
+
+@media (max-width: 992px) {
+   html {
+       font-size: 95%;
+   }
+
+    .site-header-container {
+        justify-content: flex-start;
+    }
+
+    .site-header-logo {
+        margin-right: auto;
+    }
+
+
+
+    .site-header-btn {
+
+    }
+
+    .menyu-btn {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .site-header-nav {
+        display: none;
+    }
+
+    .hero-section-img {
+        max-width: 50%;
+        height: auto;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero-section-container {
+      justify-content: center;
+    }
+    
+    .hero-section-text-wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-section-text {
+        margin-right: 0px;
+    }
+    .hero-section-img {
+        display: none;
+    }
+
+    .services-section-list-item {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .services-section-item-img {
+        margin-right: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .register-section {
+        
+    }
+    .site-footer-logo {
+        margin-bottom: 1.5rem;
+    }
+
+    .site-footer-container {
+        flex-direction: column;   
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    html {
+        font-size: 88%;
+    }
+    .site-header-btn {
+        display: none;
+
+    }
+
+    .buttons-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register-section-btn {
+        width: 18rem;
+    }
+    .register-section-btn:first-child {
+       margin-right: 0px;
+       margin-bottom: 0.7rem;
+    }
+
+    .site-footer-nav {
+        flex-direction: column;
+    }
+
+
+    .site-footer-nav-item:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+   
+    .site-footer-nav-link {
+         margin-right: 0px;
+    }
+
+
+}
+@media (max-width: 430px) {
+    .register-section-btn {
+        width: 15rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA RESPONSIVE STAYLES END  */
